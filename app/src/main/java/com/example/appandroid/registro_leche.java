@@ -21,7 +21,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Locale;
 
-public class RegistroLecheActivity extends AppCompatActivity {
+public class registro_leche extends AppCompatActivity {
 
     private AutoCompleteTextView spinnerProveedores;
     private TextInputEditText inputLitros;
@@ -85,12 +85,12 @@ public class RegistroLecheActivity extends AppCompatActivity {
             }
         };
 
-        new DatePickerDialog(RegistroLecheActivity.this, dateSetListener,
+        // CORREGIDO: Cambiado RegistroLecheActivity.this por registro_leche.this
+        new DatePickerDialog(registro_leche.this, dateSetListener,
                 calendario.get(Calendar.YEAR),
                 calendario.get(Calendar.MONTH),
                 calendario.get(Calendar.DAY_OF_MONTH)).show();
     }
-
     // Formatea la fecha y la coloca en el Input
     private void actualizarEtiquetaFecha() {
         String formato = "dd/MM/yyyy";

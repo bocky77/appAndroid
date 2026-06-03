@@ -1,5 +1,7 @@
 package com.example.appandroid;
-
+import android.view.View;
+import android.widget.Button;
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
@@ -32,5 +34,4 @@ public class login extends AppCompatActivity {
 
 
     }
-}
 }
