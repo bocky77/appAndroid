@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">appAndroid</string>
+    <string name="welcome_text">BIENVENIDOS</string>
+    <string name="start_button_text">INICIAR</string>
+    <string name="registration_page_title">Pagina De Registro</string>
+    <string name="milk_registration_btn">Registro Leche</string>
+    <string name="sales_registration_btn">Registro Ventas</string>
+    <string name="production_registration_btn">Registro Produccion</string>
+    <string name="expenses_registration_btn">Registro Gastos</string>
+    <string name="settings_description">Configuración</string>
+
+    <!-- Login Strings -->
+    <string name="login_title">INICIAR SESIÓN</string>
+    <string name="username_hint">Usuario</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="login_button_text">INGRESAR</string>
 </resources>
